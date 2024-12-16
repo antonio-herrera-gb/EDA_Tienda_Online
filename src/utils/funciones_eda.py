@@ -101,6 +101,7 @@ def eliminar_outliers_iqr2(df, columnas, factor=3.5, graficar=False):
 
         # Reemplazar outliers con NaN
         df_limpio.loc[(df[columna] < lower_bound) | (df[columna] > upper_bound), columna] = np.nan
+        # Eliminar NaN
         df_limpio = df_limpio.dropna(subset=columnas)
 
         # Graficar boxplots (opcional)
@@ -111,3 +112,50 @@ def eliminar_outliers_iqr2(df, columnas, factor=3.5, graficar=False):
             plt.show()
 
     return df_limpio
+
+# Graficar una evolucion:
+def graficar_evolucion(df, x_col, y_col, titulo="Evolución de Ventas", xlabel="Trimestre", ylabel="Cantidad Vendida"):
+    """
+    Función para graficar la evolución de un valor a lo largo de una columna
+
+    Parámetros:
+    - df (DataFrame): El DataFrame con los datos.
+    - x_col (str): Nombre de la columna para el eje X.
+    - y_col (str): Nombre de la columna para el eje Y.
+    - titulo (str): Título del gráfico (opcional).
+    - xlabel (str): Etiqueta del eje X (opcional).
+    - ylabel (str): Etiqueta del eje Y (opcional).
+    """
+    plt.figure(figsize=(10, 6))  # Tamaño del gráfico
+
+    # Graficar la línea con estilo mejorado
+    plt.plot(df[x_col], df[y_col],
+             marker="o", linestyle="-", color="#2C82C9", linewidth=2, markersize=8, label=y_col)
+    
+    # Ajustar los límites del eje Y para más espacio
+    y_min, y_max = df[y_col].min(), df[y_col].max()
+    plt.ylim(y_min - 100, y_max + 100)  # Ajusta los límites del eje Y
+
+    # Añadir etiquetas sobre los puntos
+    for i, value in enumerate(df[y_col]):
+        plt.text(df[x_col][i], value + 50, f"{value}", 
+                 ha='center', va='bottom', fontsize=10, fontweight='bold', color='black')
+
+    # Personalización de títulos y ejes
+    plt.title(titulo, fontsize=16, fontweight='bold', color="black")
+    plt.xlabel(xlabel, fontsize=12, fontweight='bold', color="black")
+    plt.ylabel(ylabel, fontsize=12, fontweight='bold', color="black")
+
+    # Personalización de cuadrícula
+    plt.grid(visible=True, linestyle="--", alpha=0.6)
+
+    # Mejorar los ejes
+    plt.xticks(df[x_col], fontsize=10, fontweight='bold')
+    plt.yticks(fontsize=10)
+
+    # Leyenda
+    plt.legend(loc="upper right", fontsize=10, frameon=False)
+
+    # Ajustar diseño y mostrar gráfico
+    plt.tight_layout()
+    plt.show()

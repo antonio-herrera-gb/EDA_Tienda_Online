@@ -65,3 +65,10 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 ├── 🧠 memoria.pdf              # Memoria del proyecto
 └── 📄 README.md                # Archivo de documentación
 ```
+
+## 📬 **Contacto**
+
+Si tienes alguna duda o quieres hablar sobre el proyecto, puedes contactarme:
+
+- **Email**: [antonio-baquero@proton.me](mailto:antonio-baquero@proton.me)
+- **LinkedIn**: [Antonio Herrera](https://www.linkedin.com/antonioherreragarciabaquero/)

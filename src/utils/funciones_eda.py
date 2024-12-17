@@ -159,3 +159,44 @@ def graficar_evolucion(df, x_col, y_col, titulo="Evolución de Ventas", xlabel="
     # Ajustar diseño y mostrar gráfico
     plt.tight_layout()
     plt.show()
+
+# Graficar barras
+def grafico_barras(df, x_col, y_col, titulo="", xlabel="", ylabel="", color_palette="coolwarm"):
+    """
+    Función para crear un gráfico de barras horizontal con etiquetas de porcentaje.
+
+    Parámetros:
+    - df (DataFrame): El DataFrame con los datos.
+    - x_col (str): Nombre de la columna para el eje X (valores numéricos).
+    - y_col (str): Nombre de la columna para el eje Y (categorías).
+    - titulo (str): Título del gráfico.
+    - xlabel (str): Etiqueta para el eje X.
+    - ylabel (str): Etiqueta para el eje Y.
+    - color_palette (str): Paleta de colores de Seaborn.
+    """
+    # Configuración del tamaño y estilo del gráfico
+    plt.figure(figsize=(10, 6))
+    colores = sns.color_palette(color_palette, len(df))
+    
+    # Crear el gráfico de barras horizontal
+    sns.barplot(
+        x=x_col, 
+        y=y_col, 
+        data=df, 
+        palette=colores
+    )
+    
+    # Añadir etiquetas de porcentaje sobre las barras
+    for index, value in enumerate(df[x_col]):
+        plt.text(value + 0.5, index, f"{value:.2f}%",  # Ajustar posición de las etiquetas
+                 ha='left', va='center', fontsize=10, fontweight='bold', color='black')
+    
+    # Personalizar título y etiquetas
+    plt.title(titulo, fontsize=14, fontweight="bold", color="darkred")
+    plt.xlabel(xlabel, fontsize=12, fontweight="bold")
+    plt.ylabel(ylabel, fontsize=12, fontweight="bold")
+    
+    # Mejorar apariencia estética
+    sns.despine(left=True, bottom=True)
+    plt.tight_layout()
+    plt.show()

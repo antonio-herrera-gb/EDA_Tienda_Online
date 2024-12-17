@@ -1,16 +1,55 @@
-# EDA_entrega
-Análisis de Ventas Online.
-========================================================
+# 📊 Análisis de Datos de una Tienda Online 📈
 
-*****
+¡Bienvenido a mi proyecto de análisis de datos de una TIENDA ONLINE! 🚀  
+En este trabajo, realizamos un análisis de un dataset (+500.000 filas) para responder hipótesis específicas y visualizar patrones interesantes.
 
-## Hipótesis:
-- El Q4 fue el trimestre con más ventas.
-- Reino Unido es el país que más nos compra.
-- Las Devoluciones son menos del 5% frente a las Ventas.
+---
 
-## Saber mas:
-- Cual es el producto más vendido y su proyeccion de venta durante el año.
-- Producto más devuelto y queremos verlo por trimestre también.
-- Precio medio de compra.
-- Que país nos devuelve más.
+## 📑 **Resumen del Proyecto**
+
+El objetivo principal de este proyecto es analizar las ventas/devoluciones de diferentes productos y países en el año marcado. Se abordan hipótesis específicas mediante un enfoque estadístico y visual.
+
+---
+
+## 🧐 **Hipótesis Planteadas**
+
+### 1️⃣ **Hipótesis 1: El Q4 fue el trimestre con más ventas.**
+
+- **Descripción**: Se analizó las ventas de cada Trimestre.  
+- **Resultado**: El Q4 es el trimestre mas importante en ventas, siendo Q1-Q2-Q3 muy parejos.
+
+#### 📊 **Gráfico**:
+![Gráfico de Devoluciones por País](img/q4trimestreconmasvents.png)
+
+---
+
+### 2️⃣ **Hipótesis 2: El Reino Unido es el país que más compra.**
+
+- **Descripción**: Se examinó las ventas totales de cada país.  
+- **Resultado**: Reino Unido es el país que más compra.
+
+#### 📊 **Gráfico**:
+![Evolución de Devoluciones del Producto](img/top5paisesenvetnastotales.png)
+
+---
+
+### 3️⃣ **Hipótesis 3: Las devoluciones son un 5% frente a las ventas.**
+
+- **Descripción**: Se calculó por separado las devoluciones y las ventas que eran (`True`) y las analizamos con el total del dataset.  
+- **Resultado**: Se encontró un resultado del **2%** , una gran noticia.
+
+#### 📊 **Gráfico**:
+![Gráfico del Ticket Medio](img/devolucionesfrenteventas.png)
+
+---
+
+## 🛠️ **Tecnologías Utilizadas**
+
+- **Lenguaje**: Python 🐍  
+- **Librerías**: Pandas, Matplotlib, Seaborn, NumPy  
+- **Entorno**: Visual Studio Code
+
+---
+
+## 📂 **Estructura del Proyecto**
+

@@ -71,4 +71,4 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 Si tienes alguna duda o quieres hablar sobre el proyecto, puedes contactarme:
 
 - **Email**: [antonio-baquero@proton.me](mailto:antonio-baquero@proton.me)
-- **LinkedIn**: [Antonio Herrera](https://www.linkedin.com/antonioherreragarciabaquero/)
+- **LinkedIn**: [Antonio Herrera](https://www.linkedin.com/in/antonioherreragarciabaquero/)

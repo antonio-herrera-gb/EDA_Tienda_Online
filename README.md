@@ -51,15 +51,17 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 
 ---
 
-## 📂 **Estructura del Proyecto**
+## 🗂️ **Estructura del Proyecto**
 
-🚀 EDA_Tienda_Online
+🚀 **EDA_Tienda_Online**
 │
-├──📂 src/                   # Contenidos
-    ├── 📂 data/                # Datasets
-    ├── 📂 img/                 # Imágenes y gráficos
-    └── 📂 notebook/            # Jupyter Notebooks con análisis
-├── 📈 main.ipynb            # Analisis final
-├── 🎬 presentacion_video    # Video Presentacion
-├── 🧠 memoria.pdf           # Memoria del proyecto
-└── 📄 README.md             # Archivo de documentación
+├── 📂 **src/**                 # Contenidos
+│   ├── 📂 **data/**            # Datasets
+│   ├── 📂 **img/**             # Imágenes y gráficos
+│   └── 📂 **notebook/**        # Jupyter Notebooks con análisis
+│
+├── 📝 **main.ipynb**           # Análisis final
+├── 🎥 **presentacion_video**   # Video Presentación
+├── 🧠 **memoria.pdf**          # Memoria del proyecto
+└── 📄 **README.md**            # Archivo de documentación
+

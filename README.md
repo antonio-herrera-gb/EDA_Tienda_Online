@@ -19,7 +19,7 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 - **Resultado**: El Q4 es el trimestre mas importante en ventas, siendo Q1-Q2-Q3 muy parejos.
 
 #### 📊 **Gráfico**:
-![Gráfico de Devoluciones por País](img/q4trimestreconmasvents.png)
+![Gráfico de Devoluciones por País](src/img/q4trimestreconmasvents.png)
 
 ---
 
@@ -29,7 +29,7 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 - **Resultado**: Reino Unido es el país que más compra.
 
 #### 📊 **Gráfico**:
-![Evolución de Devoluciones del Producto](img/top5paisesenvetnastotales.png)
+![Evolución de Devoluciones del Producto](src/img/top5paisesenvetnastotales.png)
 
 ---
 
@@ -39,7 +39,7 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 - **Resultado**: Se encontró un resultado del **2%** , una gran noticia.
 
 #### 📊 **Gráfico**:
-![Gráfico del Ticket Medio](img/devolucionesfrenteventas.png)
+![Gráfico del Ticket Medio](src/img/devolucionesfrenteventas.png)
 
 ---
 

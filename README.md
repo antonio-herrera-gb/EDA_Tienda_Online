@@ -52,7 +52,7 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 ---
 
 ## 🗂️ **Estructura del Proyecto**
-
+```plaintext
 🚀 **EDA_Tienda_Online**
 │
 ├── 📂 **src/**                 # Contenidos
@@ -64,4 +64,4 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 ├── 🎥 **presentacion_video**   # Video Presentación
 ├── 🧠 **memoria.pdf**          # Memoria del proyecto
 └── 📄 **README.md**            # Archivo de documentación
-
+```

@@ -19,7 +19,7 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 - **Resultado**: El Q4 es el trimestre mas importante en ventas, siendo Q1-Q2-Q3 muy parejos.
 
 #### 📊 **Gráfico**:
-![Gráfico de Devoluciones por País](src/img/q4trimestreconmasvents.png)
+![Gráfico de Devoluciones por País](src/img/q4trimestreconmasventas.png)
 
 ---
 
@@ -53,3 +53,13 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 
 ## 📂 **Estructura del Proyecto**
 
+🚀 EDA_Tienda_Online
+│
+├──📂 src/                   # Contenidos
+    ├── 📂 data/                # Datasets
+    ├── 📂 img/                 # Imágenes y gráficos
+    └── 📂 notebook/            # Jupyter Notebooks con análisis
+├── 📈 main.ipynb            # Analisis final
+├── 🎬 presentacion_video    # Video Presentacion
+├── 🧠 memoria.pdf           # Memoria del proyecto
+└── 📄 README.md             # Archivo de documentación

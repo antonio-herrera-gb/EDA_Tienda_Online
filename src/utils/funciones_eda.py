@@ -161,7 +161,7 @@ def graficar_evolucion(df, x_col, y_col, titulo="Evolución de Ventas", xlabel="
     plt.show()
 
 # Graficar barras
-def grafico_barras(df, x_col, y_col, titulo="", xlabel="", ylabel="", color_palette="coolwarm"):
+def grafico_barras(df, x_col, y_col, titulo="", xlabel="", ylabel="", color_palette="coolwarm", guardar = False, nombre_archivo="grafico.png"):
     """
     Función para crear un gráfico de barras horizontal con etiquetas de porcentaje.
 
@@ -173,6 +173,8 @@ def grafico_barras(df, x_col, y_col, titulo="", xlabel="", ylabel="", color_pale
     - xlabel (str): Etiqueta para el eje X.
     - ylabel (str): Etiqueta para el eje Y.
     - color_palette (str): Paleta de colores de Seaborn.
+    - guardar (bool): Si True, guarda la imagen como archivo.
+    - nombre_archivo (str): Nombre del archivo para guardar el gráfico (por defecto: 'grafico.png').
     """
     # Configuración del tamaño y estilo del gráfico
     plt.figure(figsize=(10, 6))
@@ -199,4 +201,9 @@ def grafico_barras(df, x_col, y_col, titulo="", xlabel="", ylabel="", color_pale
     # Mejorar apariencia estética
     sns.despine(left=True, bottom=True)
     plt.tight_layout()
+
+    # Guardar el gráfico si se solicita
+    if guardar:
+        plt.savefig(nombre_archivo, dpi=300, bbox_inches="tight")
+        print(f"Gráfico guardado como: {nombre_archivo}")
     plt.show()

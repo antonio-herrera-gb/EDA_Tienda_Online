@@ -13,13 +13,13 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 
 ## 🧐 **Hipótesis Planteadas**
 
-### 1️⃣ **Hipótesis 1: El Q4 fue el trimestre con más ventas.**
+### 1️⃣ **Hipótesis 1: El Q4 fue el trimestre con más ingresos.**
 
 - **Descripción**: Se analizó las ventas de cada Trimestre.  
 - **Resultado**: El Q4 es el trimestre mas importante en ventas, siendo Q1-Q2-Q3 muy parejos.
 
 #### 📊 **Gráfico**:
-![Gráfico de Devoluciones por País](src/img/q4trimestreconmasventas.png)
+![Gráfico de Devoluciones por País](src/img/q4trimestreconmasventas2.png)
 
 ---
 

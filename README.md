@@ -58,10 +58,12 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 ├── 📂 src/                     # Contenidos
 │   ├── 📂 data/                # Datasets
 │   ├── 📂 img/                 # Imágenes y gráficos
-│   └── 📂 notebook/            # Jupyter Notebooks con análisis
+│   ├── 📂 notebook/            # Jupyter Notebooks con análisis
+│   └── 📂 utils/               # Funciones
 │
 ├── 📝 main.ipynb               # Análisis final
-├── 🎥 presentacion_video       # Video Presentación
+├── 🎥 video_presentacion.mp4   # Video Presentación
+├── 📕 presentacion.pdf         # Presentacion PDF
 ├── 🧠 memoria.pdf              # Memoria del proyecto
 └── 📄 README.md                # Archivo de documentación
 ```

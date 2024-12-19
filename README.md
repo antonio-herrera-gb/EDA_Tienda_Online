@@ -23,7 +23,7 @@ El objetivo principal de este proyecto es analizar las ventas/devoluciones de di
 
 ---
 
-### 2️⃣ **Hipótesis 2: El Reino Unido es el país que más compra.**
+### 2️⃣ **Hipótesis 2: El Reino Unido es el país que más ingresos genera.**
 
 - **Descripción**: Se examinó las ventas totales de cada país.  
 - **Resultado**: Reino Unido es el país que más compra.
